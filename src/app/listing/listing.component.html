@@ -1,0 +1,23 @@
+<section class="data-listing">
+  <div class="row">
+    <div class="col-md-12">
+      <p class="text-center result-count">Showing {{dataLength}} results</p>
+    </div><!--Data-Length-->
+    <div class="data-container" [ngClass]="dataShow ? 'show-some-list-content' : 'hide-some-list-content'">
+      <div *ngFor="let data of listing, let i = index" class="col-md-12 data-box">
+        <p class="data-heading fs-18"><b>Identifier No. {{data.Identifier}}</b></p>
+        <p class="data-text">
+          <span>FMR NO.: {{data.FMR}}</span>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <span>ISIN.: {{data.ISIN}}</span>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <span>CUSIP.: {{data.CUSIP}}</span>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+        </p>
+      </div>
+    </div><!--Data-Listing-Section-->
+    <div *ngIf="!dataShow" class="col-md-12 text-center p-10">
+      <a (click)="showRestData()" class="show-more">Show more <span class="fa fa-arrow-down"></span></a> <!--show-hide-button-->
+    </div>
+  </div>
+</section>

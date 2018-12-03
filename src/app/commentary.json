@@ -1,0 +1,88 @@
+{
+  "identifier": [
+    {
+      "id": 1,
+      "Identifier": "101",
+      "FMR": "U101",
+      "ISIN": "X101",
+      "CUSIP": "Y101"
+    },
+    {
+      "id": 2,
+      "Identifier": "102",
+      "FMR": "U102",
+      "ISIN": "X102",
+      "CUSIP": "Y102"
+    },
+    {
+      "id": 3,
+      "Identifier": "103",
+      "FMR": "U103",
+      "ISIN": "X103",
+      "CUSIP": "Y103"
+    },
+    {
+      "id": 4,
+      "Identifier": "104",
+      "FMR": "U104",
+      "ISIN": "X104",
+      "CUSIP": "Y104"
+    },
+    {
+      "id": 5,
+      "Identifier": "105",
+      "FMR": "U105",
+      "ISIN": "X105",
+      "CUSIP": "Y105"
+    },
+    {
+      "id": 6,
+      "Identifier": "106",
+      "FMR": "U106",
+      "ISIN": "X106",
+      "CUSIP": "Y106"
+    },
+    {
+      "id": 7,
+      "Identifier": "107",
+      "FMR": "U107",
+      "ISIN": "X107",
+      "CUSIP": "Y107"
+    },
+    {
+      "id": 8,
+      "Identifier": "108",
+      "FMR": "U108",
+      "ISIN": "X108",
+      "CUSIP": "Y108"
+    },
+    {
+      "id": 9,
+      "Identifier": "109",
+      "FMR": "U109",
+      "ISIN": "X109",
+      "CUSIP": "Y109"
+    },
+    {
+      "id": 10,
+      "Identifier": "110",
+      "FMR": "U110",
+      "ISIN": "X110",
+      "CUSIP": "Y110"
+    },
+    {
+      "id": 11,
+      "Identifier": "111",
+      "FMR": "U111",
+      "ISIN": "X111",
+      "CUSIP": "Y111"
+    },
+    {
+      "id": 12,
+      "Identifier": "112",
+      "FMR": "U112",
+      "ISIN": "X112",
+      "CUSIP": "Y112"
+    }
+  ]
+}
